@@ -11,4 +11,4 @@ list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/FindWDK/cmake")
 
 find_package(WDK REQUIRED)
 
-add_subdirectory(simple)
+add_subdirectory(src)
